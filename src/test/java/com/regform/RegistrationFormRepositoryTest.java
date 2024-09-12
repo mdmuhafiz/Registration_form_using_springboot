@@ -18,7 +18,7 @@ public class RegistrationFormRepositoryTest {
 	private RegistrationFormRepository regrepo;
 	@Test
 	public void saveReg() {
-		RegistrationForm R = new RegistrationForm("Pam","P","pam@gmail.com","Sangareddy","9010976316");
+		RegistrationForm R = new RegistrationForm("Sam","S","sam@gmail.com","Sangareddy","9010976316");
 		regrepo.save(R);
 	}
 
