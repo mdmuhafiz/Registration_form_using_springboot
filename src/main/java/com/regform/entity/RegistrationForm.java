@@ -17,7 +17,7 @@ public class RegistrationForm {
 	private String firstName;
 	@Column(name = "last_name",length = 45,nullable = false)
 	private String lastName;
-	@Column(name = "email",length = 128,nullable = false,unique = true)
+	@Column(name = "email",length = 128,nullable = false)
 	private String email;
 	@Column(name = "city",length = 45,nullable = false)
 	private String city;
